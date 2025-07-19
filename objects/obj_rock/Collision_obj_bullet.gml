@@ -1,5 +1,5 @@
 obj_game.points +=10
-	
+audio_play_sound(rock_destroy, 0, false, random_range(0.5, 1.3));	
 
 instance_destroy(other);
 effect_create_above(ef_explosion, x, y, 1, c_white);
