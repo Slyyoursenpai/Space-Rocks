@@ -1,0 +1,13 @@
+# Ignore user-specific and backup files
+*.yyu
+*.yyp~
+*.backup
+*.tmp
+
+# Ignore build folders
+build/
+bin/
+temp/
+
+# Ignore notes folder
+notes/
